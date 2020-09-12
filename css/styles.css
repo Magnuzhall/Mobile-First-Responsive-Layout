@@ -9,6 +9,8 @@
 
 .header {
      background-color: rgba(247, 239, 239, 0.87);
+     padding-bottom: 25px;
+     padding-top: 25px;
 }
 
 .top-content {
@@ -28,6 +30,8 @@
 
 .profile-img {
      max-width: 80%;
+     margin-bottom: 15px;
+     margin-top: 25px;
 }
 
 /* == Main Content  == */
@@ -44,10 +48,69 @@
 
 /* == Footer  == */
 
-.bottom-nav {
-     border-top: solid rgba(247, 239, 239, 0.87);
+.main-footer {
+     background-color: rgba(247, 239, 239, 0.87);
+     margin-bottom: 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-top: 50px;
 }
 
+.general-info {
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+
+}
+
+.phone-number {
+     padding-left: 75px;
+     padding-right: 75px;
+}
+
+.phone {
+    float: left;
+}
+
+.number {
+     float: right;
+}
+
+.email-info {
+     padding-left: 30px;
+     padding-right: 30px;
+}
+
+.email {
+    float: left;
+}
+
+.gmail {
+     float: right;
+}
+
+/* == Bottom Nav  == */
+
+.bottom-nav {
+     border-top: solid rgba(247, 239, 239, 0.87);
+     margin-top: 50px;
+}
+
+.bot-name {
+     float: left;
+}
+
+.footer-link {
+     float: right;
+     text-decoration: none;
+     color: black;
+}
+
+.clearfix::after {
+     content: " ";
+     display: table;
+     clear: both;
+}
 
 /* == Media Queries  == */
 
@@ -63,3 +126,4 @@
 
 
 }
+
