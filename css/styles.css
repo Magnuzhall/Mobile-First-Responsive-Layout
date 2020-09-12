@@ -120,18 +120,68 @@
      color: black;
 }
 
-.clearfix::after {
-     content: " ";
-     display: table;
-     clear: both;
-}
-
 /* == Media Queries  == */
 
 @media (min-width: 768px) {
 
+     /* == Header  == */
+     .main-nav li {
+          display: inline-block;
+     }
+     .navbar-element-1 {
+          background-color: rgba(247, 239, 239, 0.87);
+     }
+     .navbar-element-2 {
+          background-color: rgba(247, 239, 239, 0.87);
+     }
+     .navbar-element-3 {
+          background-color: rgba(247, 239, 239, 0.87);
+     }
+    .bio {
+          display: inline-block;
+    }
+     .bio img {
+          width: 40%;
+          float: right;     
+     }
+     .bio p {
+          width: 60%;
+          margin-top: 30px;
+          padding-right: 30px;
+          letter-spacing: 0.12rem;
+          
+     }
 
-
+     /* == Main Content  == */
+     .first-row,
+     .second-row
+     .third-row {
+          display: inline-block;
+     }
+     .project-1 {
+          width: 49%;
+          float: left;
+     }
+     .project-2 {
+          width: 49%;
+          float: right;
+     }
+     .project-3 {
+          width: 49%;
+          float: left;
+     }
+     .project-4 {
+          width: 49%;
+          float: right;
+     }
+     .project-5 {
+          width: 49%;
+          float: left;
+     }
+     .project-6 {
+          width: 49%;
+          float: right;
+     }
 }
 
 
@@ -141,3 +191,8 @@
 
 }
 
+.clearfix::after {
+     content: " ";
+     display: table;
+     clear: both;
+}
