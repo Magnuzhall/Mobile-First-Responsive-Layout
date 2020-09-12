@@ -148,8 +148,7 @@
           width: 60%;
           margin-top: 30px;
           padding-right: 30px;
-          letter-spacing: 0.12rem;
-          
+          letter-spacing: 0.12rem;   
      }
 
      /* == Main Content  == */
@@ -187,7 +186,22 @@
 
 @media (min-width: 1024px) {
      
+      /* == Header  == */
+     .name,
+     .main-nav {
+          display: inline-block;
+     }
+     .name {
+          float: left;
+     }
+     .main-nav {
+          float: right;
+     }
+    .bio p {
+         padding-right: 60px;
+    }
 
+     /* == Main Content  == */
 
 }
 
