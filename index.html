@@ -4,27 +4,30 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Document</title>
-     <link rel="stylesheet" href="/css/styles.css">
+     <link rel="stylesheet" href="./css/styles.css">
      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
      <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
-     <header>
-          <h1 class="name">Santiago Vasquez</h1>
-          <ul class="main-nav">
-               <li><a href="#">Home</a></li>
-               <li><a href="#portfolio">Portfolio</a></li>
-               <li><a href="#contact">Contact</a></li>
-          </ul>
+     <header class="header">
+          <div class="top-content">
+               <h1 class="name">Santiago Vasquez</h1>
+               <ul class="main-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+               </ul>
+               
+               <div class="bio">
+                    <img src="./images/profile-pic.png" alt="profile-pic" class="profile-img">
+                    <p>Hi, I’m blending Data Science, Digital Marketing & Programming to solve tough and exciting problems. I'm both creative and highly analytical.
+                    On a regular day you can find me obsessed about a new business project I’m working on, reading about tech startups, business or behavioral economics, having a passionate conversation or simply enjoying life with a nice cup of coffee.
+                    </p>
+               </div>
+          </div>
      </header>
 
-     <div class="bio">
-          <img src="./images/profile-pic.png" alt="profile-pic" class="profile-img">
-          <p>Hi, I’m blending Data Science, Digital Marketing & Programming to solve tough and exciting problems. I'm both creative and highly analytical.
-             On a regular day you can find me obsessed about a new business project I’m working on, reading about tech startups, business or behavioral economics, having a passionate conversation or simply enjoying life with a nice cup of coffee.
-          </p>
-     </div>
 
      <main class="main-content" id="portfolio">
           <h2>Portfolio</h2>
@@ -78,9 +81,9 @@
           </div>
           <div class="bottom-nav">
                <h3>Santiago Vasquez</h3>
-               <h3>Back To Top</h3>
+               <h3><a href="#top">Back to Top</a></h3>
           </div>
      </footer>
-        
+
 </body>
 </html>

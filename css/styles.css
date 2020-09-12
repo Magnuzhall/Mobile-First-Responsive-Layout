@@ -1,9 +1,52 @@
+/* == General  == */
+
 * {
-     display: inline-block;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
 }
 
+/* == Header  == */
 
+.header {
+     background-color: rgba(247, 239, 239, 0.87);
+}
 
+.top-content {
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+}
+
+.name {
+     margin-top: 0;
+}
+
+.main-nav {
+     list-style: none;
+     display: block;
+}
+
+.profile-img {
+     max-width: 80%;
+}
+
+/* == Main Content  == */
+
+.main-content {
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+}
+
+.projects img {
+     max-width: 100%;
+}
+
+/* == Footer  == */
+
+.bottom-nav {
+     border-top: solid rgba(247, 239, 239, 0.87);
+}
 
 
 /* == Media Queries  == */
