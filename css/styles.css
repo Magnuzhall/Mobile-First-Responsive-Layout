@@ -24,14 +24,54 @@
 }
 
 .main-nav {
-     list-style: none;
      display: block;
+     padding-left: 0%;
+}
+
+.navbar-element-1 {
+    list-style-type: none;
+    background-color: white;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.navbar-element-2 {
+     list-style-type: none;
+     background-color: white;
+     margin: 5px auto;
+     padding: 10px;
+}
+
+.navbar-element-3 {
+     list-style-type: none;
+     background-color: white;
+     margin: 5px auto;
+     padding: 10px;
+}
+
+.nav-link-1 {
+     text-decoration: none;
+     color: black;
+}
+
+.nav-link-2 {
+     text-decoration: none;
+     color: black;
+}
+
+.nav-link-3 {
+     text-decoration: none;
+     color: black;
 }
 
 .profile-img {
      max-width: 80%;
      margin-bottom: 15px;
      margin-top: 25px;
+}
+
+.bio p {
+     letter-spacing: 0.1rem;
 }
 
 /* == Main Content  == */
@@ -61,32 +101,6 @@
      margin: 0 auto;
      text-align: center;
 
-}
-
-.phone-number {
-     padding-left: 75px;
-     padding-right: 75px;
-}
-
-.phone {
-    float: left;
-}
-
-.number {
-     float: right;
-}
-
-.email-info {
-     padding-left: 30px;
-     padding-right: 30px;
-}
-
-.email {
-    float: left;
-}
-
-.gmail {
-     float: right;
 }
 
 /* == Bottom Nav  == */
