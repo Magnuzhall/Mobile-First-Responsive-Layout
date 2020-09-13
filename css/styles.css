@@ -152,33 +152,37 @@
      }
 
      /* == Main Content  == */
-     .first-row,
-     .second-row
-     .third-row {
+     .project-1,
+     .project-2,
+     .project-3,
+     .project-4,
+     .project-5,
+     .project-6 {
           display: inline-block;
      }
      .project-1 {
-          width: 49%;
+          width: 48%;
           float: left;
+       
      }
      .project-2 {
-          width: 49%;
+          width: 48%;
           float: right;
      }
      .project-3 {
-          width: 49%;
+          width: 48%;
           float: left;
      }
      .project-4 {
-          width: 49%;
+          width: 48%;
           float: right;
      }
      .project-5 {
-          width: 49%;
+          width: 48%;
           float: left;
      }
      .project-6 {
-          width: 49%;
+          width: 48%;
           float: right;
      }
 }
@@ -202,7 +206,33 @@
     }
 
      /* == Main Content  == */
+     .project-1 {
+          width: 30%;
+          float: left;
+     }
+     .project-2 {
+          width: 30%;
+          float: none;
+     }
+     .project-3 {
+          width: 30%;
+          float: right;
+     }
+     .project-4 {
+          width: 30%;
+          float: left;
+     }
+     .project-5 {
+          width: 30%;
+          float: none;
+     }
+     .project-6 {
+          width: 30%;
+          float: right;
+     }
 
+
+     
 }
 
 .clearfix::after {
