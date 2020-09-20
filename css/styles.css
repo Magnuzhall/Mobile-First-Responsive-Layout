@@ -3,6 +3,7 @@
 * {
      box-sizing: border-box;
      scroll-behavior: smooth;
+     font-family: 'Mukta', sans-serif;
 }
 
 /* == Header  == */
@@ -262,10 +263,7 @@
      .project-6 {
           width: 30%;
           float: right;
-     }
-
-
-     
+     } 
 }
 
 .clearfix::after {
