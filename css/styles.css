@@ -112,10 +112,36 @@
 
 .bot-name {
      float: left;
+     display: inline-block;
 }
 
-.footer-link {
+.bot-nav-list {
      float: right;
+     display: inline-block;
+     margin-top: 20px;
+}
+
+.mobile {
+     display: inline-block;
+}
+
+.bot-navbar-1 {
+     display: inline-block;
+}
+
+.bot-navbar-2 {
+     display: inline-block;
+}
+
+.bot-navbar-3 {
+     display: inline-block;
+}
+
+.full-nav {
+     display: none;
+     padding-left: 10px;
+}
+.back-to-top-link {
      text-decoration: none;
      color: black;
 }
@@ -184,6 +210,13 @@
      .project-6 {
           width: 48%;
           float: right;
+     }
+     .mobile {
+          display: none;
+     }
+     .full-nav {
+          display: inline-block;
+          padding-right: 10px
      }
 }
 
